@@ -1,0 +1,7 @@
+<div class="landing-container" *ngIf="user">
+  <h2>Welcome, {{ user.displayName }}!</h2>
+  <p>Your email is: {{ user.email }}</p>
+  <button (click)="logout()">
+    Logout
+  </button>
+</div>
