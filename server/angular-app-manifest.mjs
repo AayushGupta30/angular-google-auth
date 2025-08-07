@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/angular-google-auth/',
+  baseHref: 'https://AayushGupta30.github.io/angular-google-auth/',
   locale: undefined,
   routes: [
   {
@@ -21,10 +21,10 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 521, hash: '9f51dc9c1319d59007a3231a8ae85ce869c9e468f8107f76be345faf5795dbbb', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1034, hash: '33fe6caf9896dc8158afb8f651f1f980d16a9cf2c7de4a9cd1235218c122345f', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'landing/index.html': {size: 3484, hash: '4f244e07526fd74a2bf17110efb02b29d6c90ac3a41ef5b6d109cc2a7accbf10', text: () => import('./assets-chunks/landing_index_html.mjs').then(m => m.default)},
-    'login/index.html': {size: 3484, hash: '4f244e07526fd74a2bf17110efb02b29d6c90ac3a41ef5b6d109cc2a7accbf10', text: () => import('./assets-chunks/login_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 552, hash: 'd4879649f80d3f321b0623b4739c18827e6338bd91f94c62a436c33ef89c731c', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1065, hash: '34184dc10fa4d52531d1321518cc25601612bd7168bacbb3dd318060b5797c47', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'landing/index.html': {size: 3515, hash: '9172cda3969d95dc7de3bf2075700123330d57bfc283a793725121d4bc03ae07', text: () => import('./assets-chunks/landing_index_html.mjs').then(m => m.default)},
+    'login/index.html': {size: 3515, hash: '9172cda3969d95dc7de3bf2075700123330d57bfc283a793725121d4bc03ae07', text: () => import('./assets-chunks/login_index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };

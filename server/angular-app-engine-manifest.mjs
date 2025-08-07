@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/angular-google-auth',
+  basePath: 'https://AayushGupta30.github.io/angular-google-auth',
   supportedLocales: {
   "en-US": ""
 },
