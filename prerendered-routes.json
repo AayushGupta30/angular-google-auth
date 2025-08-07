@@ -1,7 +1,0 @@
-{
-  "routes": {
-    "/angular-google-auth": {},
-    "/angular-google-auth/landing": {},
-    "/angular-google-auth/login": {}
-  }
-}
