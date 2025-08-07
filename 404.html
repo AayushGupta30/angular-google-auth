@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <script>
+    // Get the URL path after the repository name
+    var path = window.location.pathname.replace('/angular-google-auth/', '');
+
+    // Redirect to the index.html file with the path in the URL fragment
+    window.location.replace('/angular-google-auth/#' + path);
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a id="redirect-link">the main page</a>...</p>
+</body>
+</html>
